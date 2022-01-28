@@ -64,7 +64,7 @@
                     margin-top: 10px;
                 }
             }
-            
+
         </style>
     </head>
 
@@ -83,12 +83,31 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav mx-auto">
-                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                                <a class="nav-link" href="html/training.html">TRAINING</a>
-                                <a class="nav-link" href="html/store.html">STORE</a>
-                                <a class="nav-link" href="html/faq.html">FAQ</a>
-                            </div>
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        TRAINING
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="html/training.html">All</a></li>
+                                        <li><a class="dropdown-item" href="#">Running</a></li>
+                                        <li><a class="dropdown-item" href="#">Strength</a></li>
+                                        <li><a class="dropdown-item" href="#">Mobility</a></li>
+                                        <li><a class="dropdown-item" href="#">Nutrition</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Fitness Tools...</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="html/store.html">STORE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="html/faq.html">FAQ</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -160,8 +179,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                    
-                </div>
+
+            </div>
             <!-- Carousel wrapper -->
             <!-- start footer wrapper -->
             <footer class="container-fluid bg-black">
