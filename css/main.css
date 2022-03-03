@@ -701,6 +701,7 @@ li {
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    color: black;
 }
 
 .work_info a {
@@ -714,7 +715,7 @@ li {
 }
 
 .work_single_item a:hover {
-    color: red;
+    color: white;
     transform: translateY(-20px);
 }
 
@@ -723,7 +724,7 @@ li {
     content: "";
     height: 100%;
     width: 0;
-    background-color: red;
+    background-color: white;
     top: 0;
     right: 0;
     transition: .3s;
