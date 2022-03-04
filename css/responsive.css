@@ -87,7 +87,7 @@
     }
     .works .row > .col-lg-10,
     .services .row > .col-lg-10 {
-        padding: 0 65px;
+        padding: 0;
     }
     .work_wrapper,
     .contact_wrapper {
