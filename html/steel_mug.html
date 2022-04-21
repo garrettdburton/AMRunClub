@@ -33,60 +33,91 @@
             div {
                 font-family: 'Roboto', sans-serif;
             }
+            
+             .masthead {
+                height: 100vh;
+                min-height: 500px;
+                background-image: url('../images/Banners/banner_1.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
         </style>
     </head>
 
-    <body data-target="#menu_items">
+    <body id="top" data-spy="scroll" data-target="#menu_items">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+            <div class="container-fluid">
+                <div class="row mx-auto">
+                    <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+                        <a class="navbar-brand mx-auto" href="#"><img class="img-fluid" src="../images/AM-Logos/logo_nav.png" alt=""></a>
+                    </div>
+
+                    <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-center mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="running.html">TRAINING</a>
+                            </li>
+                            <!--
+<li class="nav-item dropdown">
+<a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+TRAINING
+</a>
+<ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="training.html">All</a></li>
+<li><a class="dropdown-item active" href="#">Running</a></li>
+<li><a class="dropdown-item" href="#">Strength</a></li>
+<li><a class="dropdown-item" href="#">Mobility</a></li>
+<li><a class="dropdown-item" href="#">Nutrition</a></li>
+<li><a class="dropdown-item" href="#">Fitness Tools</a></li>
+</ul>
+</li>
+-->
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="store.html">STORE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Full Page Image Header with Vertically Centered Content -->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+
+                    </div>
+                </div>
+            </div>
+        </header>
+         <!-- Page Content -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="fw-light">Store</h2>
+            </div>
+        </section>
         <div class="container-fluid">
             <!-- start header  -->
-            <div class="row p-2">
-                <img class="img-fluid" src="../images/logo.png" alt="">
-            </div>
-            <div class="row justify-content-center p-1">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse mx-auto" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav text-center mx-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        TRAINING
-                                    </a>
-                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="training.html">All</a></li>
-                                        <li><a class="dropdown-item" href="running.html">Running</a></li>
-                                        <li><a class="dropdown-item" href="#">Strength</a></li>
-                                        <li><a class="dropdown-item" href="#">Mobility</a></li>
-                                        <li><a class="dropdown-item" href="#">Nutrition</a></li>
-                                        <li><a class="dropdown-item" href="#">Fitness Tools</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="html/store.html">STORE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="html/faq.html">FAQ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!-- end header  -->
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 p-5">
                     <a href="store.html"><button class="btn-dark ml-2 rounded">Back</button></a>
                 </div>
             </div>
             <div class="row p-5">
                 <div class="col-sm-12 col-m-5 col-lg-5 p-2 mx-auto">
-                    <img class="img-fluid" src="../images/stockImgMug.jpg">
-                        
+                    <img class="img-fluid" src="../images/store/logo-mug.png">
+
                 </div>
                 <div class="col-sm-12 col-m-5 col-lg-5 text-center p-2 mx-auto">
                     <h3>Logo Steel Mug</h3>
@@ -110,18 +141,18 @@
                             <li class="p-1"><h5><a>Store</a></h5></li>
                         </ul>
                     </div>
-                    
+
                     <div class="col-sm-12 col-md-4 col-lg-3 mx-auto p-2">
                         <ul class="list-group">
                             <li class="p-1"><h5><a>FAQ</a></h5></li>
                         </ul>
                     </div>
-                    
+
 
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 mx-auto text-center">
-                        <img style="height: 200px; width: 200px;" src="../images/logo_2.png" class="img-fluid">
+                        <img style="height: 200px; width: 200px;" src="../images/AM-Logos/logo_2.png" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
