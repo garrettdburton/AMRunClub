@@ -14,12 +14,12 @@
         <!-- Favicon -->
         <!--    <link href="img/favicon.png" type="image/png" rel="icon">-->
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <link rel="icon" href="../apple-touch-icon.png">
 
         <!-- All CSS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link href="../css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="../css/ionicons.css" rel="stylesheet" type="text/css">
         <link href="../css/mobiriseicons.css" rel="stylesheet" type="text/css">
         <link href="../css/owl.carousel.min.css" rel="stylesheet" type="text/css">
@@ -28,233 +28,437 @@
         <link href="../css/main.css" rel="stylesheet" type="text/css">
         <link href="../css/responsive.css" rel="stylesheet" type="text/css">
         <link href="../css/roboto_font.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <style>
-            div {
-                font-family: 'Roboto', sans-serif;
+
+
+            .card-horizontal {
+                display: flex;
+                flex: 1 1 auto;
             }
-            
         </style>
+
+
     </head>
 
     <body id="top" data-spy="scroll" data-target="#menu_items">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+            <div class="container-fluid">
+                <div class="row mx-auto">
+                    <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+                        <a class="navbar-brand mx-auto" href="#"><img class="img-fluid" src="../images/AM-Logos/logo_nav.png" alt=""></a>
+                    </div>
+
+                    <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-center mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="tr.html">TRAINING</a>
+                            </li>
+                            <!--
+<li class="nav-item dropdown">
+<a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+TRAINING
+</a>
+<ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="training.html">All</a></li>
+<li><a class="dropdown-item active" href="#">Running</a></li>
+<li><a class="dropdown-item" href="#">Strength</a></li>
+<li><a class="dropdown-item" href="#">Mobility</a></li>
+<li><a class="dropdown-item" href="#">Nutrition</a></li>
+<li><a class="dropdown-item" href="#">Fitness Tools</a></li>
+</ul>
+</li>
+-->
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="store.html">STORE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Full Page Image Header with Vertically Centered Content -->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Content 
+<section class="py-5">
+<div class="container">
+<h2 class="section_title">Training</h2>
+<p>“Running allows me to set my mind free. Nothing seems impossible. Nothing unattainable.” — Kara Goucher</p>
+</div>
+</section> -->
         <div class="container-fluid">
-            <!-- start header  -->
-             <div class="row p-2">
-                <img src="../images/logo.png" alt="">
-            </div>
-            <div class="row justify-content-center p-1">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse  mx-auto" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav mx-auto text-center">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        TRAINING
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="training.html">All</a></li>
-                                        <li><a class="dropdown-item" href="running.html">Running</a></li>
-                                        <li><a class="dropdown-item" href="#">Strength</a></li>
-                                        <li><a class="dropdown-item" href="#">Mobility</a></li>
-                                        <li><a class="dropdown-item" href="#">Nutrition</a></li>
-                                        <li><a class="dropdown-item" href="#">Fitness Tools</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="store.html">STORE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!-- end header  -->
-            <!-- start landing content -->
-            <div class="row">
-                <div class="col-8 text-center mx-auto p-5">
-                    <h1>TRAINING</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center p-3">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../images/stockImg.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/stockImg.jpg"  class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/stockImg.jpg"  class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- end landing content -->
-            <div class="row">
-                <div class="col">
-                    <!-- start about wrapper -->
-                    <div id="about" class="about_wrapper bg-white text-dark">
-                        <div class="about">
-                            <div class="row p-3">
-                                <div class="col-sm-12 col-md-6 col-lg-3">
-                                    <div class="card mb-3">
-                                        <img src="../images/stockImg.jpg" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-3">
-                                    <div class="card mb-3">
-                                        <img src="../images/stockImg.jpg" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-3">
-                                    <div class="card mb-3">
-                                        <img src="../images/stockImg.jpg" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-3">
-                                    <div class="card mb-3">
-                                        <img src="../images/stockImg.jpg" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- about row 1 -->
-                            <div class="row">
-                                <div class="col-lg-11 mx-auto">
-
-                                    <!-- article filter start -->
-                                    <div class="row p-3">
-                                        <div class="col-6 mr-auto">
-                                            <div class="filter-buttons">
-                                                <button class="active" data-filter=".latest">Latest</button>
-                                                <button data-filter=".training">Training</button>
-                                                <button data-filter=".gear">Gear</button>
-                                                <button data-filter=".review">Reviews</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- article filter end -->
-
-                                    <div class="row works">
-                                        <!-- article single item  -->
-                                        <div class="col-12 p-2 training">
-                                            <div class="work_single_item rounded">
-                                                <div class="card mb-3">
-                                                    <div class="row g-0">
-                                                        <div class="col-4">
-                                                            <img src="../images/stockImg.jpg" class="img-fluid rounded-start" alt="...">
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">training title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-2 gear">
-                                            <div class="work_single_item rounded">
-                                                <div class="card mb-3">
-                                                    <div class="row g-0">
-                                                        <div class="col-4">
-                                                            <img src="../images/stockImg.jpg" class="img-fluid rounded-start" alt="...">
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">gear title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-2 review">
-                                            <div class="work_single_item rounded">
-                                                <div class="card mb-3">
-                                                    <div class="row g-0">
-                                                        <div class="col-4">
-                                                            <img src="../images/stockImg.jpg" class="img-fluid rounded-start" alt="...">
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">reviews title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end article wrapper -->
-
-            </div>
-
-            <!-- end services wrapper -->
-            
-            <!-- start footer wrapper -->
-            <footer class="container-fluid">
+            <div id="training">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="http://www.unshiftedbitdev.com">Unshifted Bit Development</a></p>
+                    <div class="col-12 text-center">
+                        <h1 class="text-dark p-5">Training</h1>
+                        <p></p>
                     </div>
                 </div>
-            </footer>
-            <!-- end footer wrapper -->
-        </div>
-        <!-- ========  All JS Here ========  -->
+                <hr>
+                <div class="row text-white justify-content-center">
+                    <div class="col-lg-12">
+                        <!-- work filter start -->
+                        <div class="row pb-4 p-1">
+                            <div class="col-12 bg-light rounded">
+                                <!-- section title -->
+                                <div class="row pt-5 pl-5 pr-5 pb-4" id="training">
+                                    <h2 class="section_title text-dark text-center">Running Programs</h2>
+                                    <p class="text-muted text-center pb-5 pl-5 pr-5">
+                                        As AM RUN CLUB continues to grow we will update our training plan selections to feature more coaches from around the world.
+                                    </p>
+                                    <div class="col-12">
+                                        <div class="filter-buttons">
+                                            <button class="active" data-filter="*">All</button>
+                                            <button data-filter=".fivek">5k</button>
+                                            <button data-filter=".tenk">10k</button>
+                                            <button data-filter=".half">13.1 miles</button>
+                                            <button data-filter=".full">26.2 miles</button>
+                                            <button data-filter=".fiftyk">50k</button>
+                                            <button data-filter=".fiftym">50 miles</button>
+                                        </div>
+                                        <p class="text-muted text-center pl-5 pr-5">
+                                            (Click program to view)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row works">
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 fivek p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/5k-training/novice-5k/">
+                                                <img class="card-img-top" src="../images/Running/hal-Logo-5kNovice.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 fivek p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/5k-training/novice-5k/">
+                                                <img class="card-img-top" src="../images/Running/hal-Logo-5kIntermediate.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 fivek p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/5k-training/advanced-5k/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-5kAdvanced.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 tenk p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/10k-training/novice-10k/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-10kNovice.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 tenk p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/10k-training/intermediate-10k/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-10kIntermediate.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 tenk p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/10k-training/advanced-10k/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-10kAdvanced.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/novice-1-half-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfNovice1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/novice-2-half-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfNovice2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/intermediate-1-half-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfIntermediate1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/intermediate-1-half-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfIntermediate2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/advanced-half-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfAdvanced.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 half p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/half-marathon-training/half-marathon-3/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfCross.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/novice-1-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-fullNovice1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/novice-2-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-fullNovice2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/intermediate-1-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-fullIntermediate1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/intermediate-2-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-halfIntermediate2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/advanced-1-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-fullAdvanced1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 full p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/marathon-training/advanced-2-marathon/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-fullAdvanced2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- work single item  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 fiftyk p-4">
+                                        <div class="work_single_item rounded">
+                                            <a href="https://www.halhigdon.com/training-programs/more-training/ultramarathon-50k/">
+                                                <img class="img-fluid" src="../images/Running/hal-Logo-full50k.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- work filter end -->
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row p-5 justify-content-center border">
+                <div class="col-12 text-center mx-auto my-auto" id="apps">
+                    <h2 class="section_title text-dark">Recommended Apps</h2>
+                    <p>Running is the best way to escape our world of technology, but here are a few ways to use technology to better your run.</p>
+                </div>
+                <!-- App -->
+                <div class="col-sm-12 col-md-3 shadow-lg p-3 m-2">
+                    <a href="https://www.strava.com/">
+                        <div class="card mb-3">
+                            <img src="../images/Recommended_Logos/strava-logo.png" class="img-fluid text-center rounded" alt="Strava">
+                        </div>
+                    </a>
+                    <h4 class="text-center p-3">Strava</h4>
+                    <p class="small text-start p-3">
+                        Track your fitness with Strava activity tracker. Record routes, map your favorite bike trail or run &amp; analyze your training with all the stats – for free!
 
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                        Marathon training or simply love going for a bike ride? Turn your phone into a sophisticated cycle or running tracker with Strava. Try out a new trail with Strava distance tracker and mile counter or even track running speed. Join millions of active people and reach your goals!
+                    </p>
+                </div>
+                <!-- App -->
+                <div class="col-sm-12 col-md-3 shadow-lg p-3 m-2">
+                    <a href="https://www.myfitnesspal.com/">
+                        <div class="card mb-3">
+                            <img src="../images/Recommended_Logos/myFitnessPal-Logo.png" class="img-fluid text-center rounded" alt="MyFitnessPal">
+                        </div>
+                    </a>
+                    <h4 class="text-center p-3">MyFitnessPal</h4>
+                    <p class="small text-start p-3">
+                        MyFitnessPal gives you access to the biggest food database available with accurate nutrition facts for over 14 million foods.Easily log everything you eat to your food diary for detailed insights about your nutrition. It’s a free nutrition tracker, calorie tracker, and macro tracker in one!
+                    </p>
+                    <br>
+                </div>
+                <!-- App -->
+                <div class="col-sm-12 col-md-3 shadow-lg p-3 m-2">
+                    <a href="https://www.myfitnesspal.com/">
+                        <div class="card mb-3">
+                            <img src="../images/Recommended_Logos/allTrails-Logo.png" class="img-fluid text-center rounded" alt="All Trails">
+                        </div>
+                    </a>
+                    <h4 class="text-center p-3">All Trails</h4>
+                    <p class="small text-start p-3">
+                        View trail maps to find that kid friendly or dog friendly trails that you’ve been searching for. Take the mountain biking, horseback riding, or backpacking trip you’ve always wanted to do. Explore national parks or discover new running maps, biking and hiking trails in your area. Download offline maps, get to the trailhead and start your outdoor adventure.
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <div class="bg-dark p-5 m-3">
+                <div class="row" style="height: 25vh">
+                    <div class="col-lg-8 col-sm-12 text-center mx-auto my-auto" id="training">
+                        <h2 class="section_title text-white">Trusted Brands</h2>
+                        <p class="text-center text-white">
+                            All gear suggested has been tested by a AM Run Club member
+                        </p>
+                        <p class="text-muted text-center">
+                            As AM RUN CLUB continues to grow we will update our gear and review selections to feature more products to help you achieve your goals.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 gear clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.tracksmith.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/tracksmith-Logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 shoes gear clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="Product%2520Detail/product-detail-nike.html">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/nike-Logo.jpeg" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.ciele.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/ciele_Logo.jpeg" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 shoes gear clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.salomen.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/salomon_Logo.jpeg" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 shoes gear clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.hoka.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/hoka-Logo.png" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.satisfyrunning.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/satisfyRunning_Logo.jpg" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.garmin.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/garmin-Logo.png" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work single item  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 clothing">
+                        <div class="work_single_item_no_hover card rounded">
+                            <a href="https://www.asics.com">
+                                <img class="card-img-top border p-1" src="../images/Recommended_Logos/asics_Logo.jpg" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start footer wrapper -->
+        <footer class="container-fluid border-top bg-light">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 mx-auto text-center">
+                    <img style="height: 200px; width: 200px;" src="../images/AM-Logos/logo_2.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="http://www.unshiftedbitdev.com">Unshifted Bit Development</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer wrapper -->
+
+        <!-- ========  All JS Here ========  -->
+        <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="../js/ajax-mail.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/vejas.min.js"></script>
     </body>
 
 </html>
