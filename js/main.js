@@ -1,11 +1,8 @@
 /*==============================================================================
 
- * Template Name: Zuman - Creative Personal Portfolio
- * Template URI: 
- * Author: ixtheme - (https://themeforest.net/user/ixtheme)
- * Description: Personal Portfolio Template
+ * Website Name: AM Run Club
+ * Description: Running Company
  * Version: 1.0
- * Copyright 2018 ixtheme
 
 ==============================================================================
     

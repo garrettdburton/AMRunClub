@@ -58,11 +58,6 @@ div {
     font-family: 'Roboto', sans-serif;
 }
 
-
-html,
-body {
-}
-
 .layout-fixed {
     padding-right: 17px;
 }
@@ -125,11 +120,11 @@ div {
 ========================================================================== */
 
 .bg-black{
-    background-color: black; !important
+    background-color: black; 
 }
 
 .bg-white{
-    background-color: white; !important
+    background-color: white; 
 }
 
 .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
@@ -303,9 +298,6 @@ div {
 
 .back_to_home {
     text-align: right;
-}
-
-.back_to_home a {
 }
 
 /* HEADER STYLE  end */
@@ -1167,15 +1159,3 @@ button.button {
 /* ==========================================================================
 12. FOOTER WRAPPER
 ========================================================================== */
-
-footer {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    position: relative;
-    text-align: center;
-    padding: 80px 15px;\
-}
-
-footer p {
-    color: #666;
-}
